@@ -1,0 +1,27 @@
+INSERT INTO Users VALUES
+(1, 'Alice', 'Johnson', 'alice@email.com', '1995-06-12', 'Premium'),
+(2, 'Bob', 'Smith', 'bob@email.com', '1988-09-23', 'Standard'),
+(3, 'Charlie', 'Brown', 'charlie@email.com', '2000-02-14', 'Basic'),
+(4, 'Diana', 'Miller', 'diana@email.com', '1992-11-05', 'Premium');
+
+INSERT INTO Movies VALUES
+(101, 'Inception', 2010, 'Sci-Fi', 'Christopher Nolan', 8.8),
+(102, 'Titanic', 1997, 'Romance', 'James Cameron', 7.8),
+(103, 'The Dark Knight', 2008, 'Action', 'Christopher Nolan', 9.0),
+(104, 'Forrest Gump', 1994, 'Drama', 'Robert Zemeckis', 8.8),
+(105, 'Interstellar', 2014, 'Sci-Fi', 'Christopher Nolan', 8.6),
+(106, 'The Matrix', 1999, 'Sci-Fi', 'Lana & Lilly Wachowski', 8.7);
+
+INSERT INTO Reviews VALUES
+(1, 1, 101, 9.0, 'Amazing mind-bending movie!'),
+(2, 2, 102, 7.5, 'A timeless classic.'),
+(3, 3, 103, 9.5, 'Best Batman movie ever.'),
+(4, 4, 105, 8.7, 'Mind-blowing visuals and science!');
+
+INSERT INTO WatchedHistory VALUES
+(1, 101, '2024-03-01'),
+(1, 105, '2024-02-20'),
+(2, 102, '2024-03-05'),
+(3, 103, '2024-03-02'),
+(4, 104, '2024-02-25'),
+(4, 106, '2024-02-18');
