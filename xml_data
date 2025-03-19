@@ -1,64 +1,25 @@
 <university>
   <students>
-    <student id="1">
-      <name>John Doe</name>
-      <age>21</age>
-    </student>
-    <student id="2">
-      <name>Jane Smith</name>
-      <age>22</age>
-    </student>
-    <student id="3">
-      <name>Emma Brown</name>
-      <age>20</age>
-    </student>
-    <student id="4">
-      <name>Robert Johnson</name>
-      <age>23</age>
-    </student>
+    <student id="1"><name>John Doe</name><age>21</age></student>
+    <student id="2"><name>Jane Smith</name><age>22</age></student>
+    <student id="3"><name>Emma Brown</name><age>20</age></student>
+    <student id="4"><name>Robert Johnson</name><age>23</age></student>
+    <student id="5"><name>Chris Evans</name><age>24</age></student>
   </students>
   <courses>
-    <course id="C101">
-      <title>Mathematics</title>
-      <credits>3</credits>
-    </course>
-    <course id="C102">
-      <title>Physics</title>
-      <credits>4</credits>
-    </course>
-    <course id="C103">
-      <title>Chemistry</title>
-      <credits>3</credits>
-    </course>
-    <course id="C104">
-      <title>Computer Science</title>
-      <credits>5</credits>
-    </course>
+    <course id="C101"><title>Mathematics</title><credits>3</credits></course>
+    <course id="C102"><title>Physics</title><credits>4</credits></course>
+    <course id="C103"><title>Chemistry</title><credits>3</credits></course>
+    <course id="C104"><title>Computer Science</title><credits>5</credits></course>
+    <course id="C105"><title>Biology</title><credits>4</credits></course>
   </courses>
   <enrollments>
-    <enrollment>
-      <studentID>1</studentID>
-      <courseID>C101</courseID>
-    </enrollment>
-    <enrollment>
-      <studentID>1</studentID>
-      <courseID>C104</courseID>
-    </enrollment>
-    <enrollment>
-      <studentID>2</studentID>
-      <courseID>C102</courseID>
-    </enrollment>
-    <enrollment>
-      <studentID>3</studentID>
-      <courseID>C103</courseID>
-    </enrollment>
-    <enrollment>
-      <studentID>4</studentID>
-      <courseID>C101</courseID>
-    </enrollment>
-    <enrollment>
-      <studentID>4</studentID>
-      <courseID>C104</courseID>
-    </enrollment>
+    <enrollment><studentID>1</studentID><courseID>C101</courseID></enrollment>
+    <enrollment><studentID>1</studentID><courseID>C104</courseID></enrollment>
+    <enrollment><studentID>2</studentID><courseID>C102</courseID></enrollment>
+    <enrollment><studentID>3</studentID><courseID>C103</courseID></enrollment>
+    <enrollment><studentID>4</studentID><courseID>C101</courseID></enrollment>
+    <enrollment><studentID>4</studentID><courseID>C104</courseID></enrollment>
+    <enrollment><studentID>5</studentID><courseID>C105</courseID></enrollment>
   </enrollments>
 </university>
