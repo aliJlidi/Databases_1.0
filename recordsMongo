@@ -1,0 +1,7 @@
+collection.insert_many([
+    {"name": "Sara", "grade": "B", "age": 22},
+    {"name": "John", "grade": "C", "age": 23},
+    {"name": "Lina", "grade": "A", "age": 21},
+    {"name": "Ali", "grade": "B", "age": 24},
+    {"name": "Emma", "grade": "A", "age": 22}
+])
